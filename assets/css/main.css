@@ -3420,16 +3420,17 @@ body.is-menu-visible #menu .inner {
 	visibility: visible;
 }
 
-.card {
+.card{
 	/* Add shadows to create the "card" effect */
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	transition: 0.3s;
+	box-shadow: 0 5px 10px 0rgba(0, 0, 0, 0.212);
+	transition: 0.5s;
+	background-color:rgba(212, 212, 255, 0.274);
 }
 
 /* On mouse-over, add a deeper shadow */
 
 .card:hover {
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 8px 16px 0 rgb(0, 0, 0);
 }
 
 /* Add some padding inside the card container */

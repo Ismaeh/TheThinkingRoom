@@ -14,6 +14,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../../assets/css/main.css" />
+	<script>
+		let play = function () { document.getElementById("audio").play() }
+		</script>
     <noscript>
         <link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
 	</head>
@@ -21,7 +24,7 @@
 
 		<!-- Wrapper -->
 	<div id="wrapper">
-
+		<audio id="audio" src="../../audio/adrian_audio2_senales.mp3"></audio>
 		<!-- Header -->
 		<header id="header">
 			<a href="../../index.html" class="logo" style="margin-top: 10px;"><img src="../../Logo/the-thinking-roomLogo.svg"
@@ -65,7 +68,7 @@
 						<div class="container">
 							<h4>¿Quién es quién?</h4>
 							<p>La respuesta es sí.</p>
-							<p><a href="https://twitter.com/JulesLinley/status/693123886737670144" class="button next" target="_blank">Visitar fuente</a></p>
+							<p><a href="https://twitter.com/JulesLinley/status/693123886737670144" class="button next" target="_blank"  onclick="play()">Visitar fuente</a></p>
 							<p><button class="button primary" onclick="goBack()">Volver atrás</button></p>
 						</div>
 					</div>

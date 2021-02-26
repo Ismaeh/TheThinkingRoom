@@ -14,6 +14,9 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script>
+		let play = function () { document.getElementById("audio").play() }
+		</script>
 	<link rel="stylesheet" href="../../assets/css/main.css" />
 	<noscript>
 		<link rel="stylesheet" href="../../assets/css/noscript.css" />
@@ -24,7 +27,7 @@
 
 	<!-- Wrapper -->
 	<div id="wrapper">
-
+		<audio id="audio" src="../../audio/adrian_audio1_cortinas.mp3"></audio>
 		<!-- Header -->
 		<header id="header">
 			<a href="../../index.html" class="logo" style="margin-top: 10px;"><img src="../../Logo/the-thinking-roomLogo.svg"
@@ -52,7 +55,7 @@
 
 		<!-- Main -->
 		<div id="main" class="alt">
-
+			
 			<!-- One -->
 			<section id="one">
 				<div class="inner">
@@ -69,7 +72,7 @@
 							<h4>Es gracioso pero...</h4>
 							<p>a mi me ha quitado la sed.</p>
 							<p><a href="https://www.demilked.com/funny-creative-bathroom-signs/" class="button next"
-									target="_blank">Ver fuente</a>
+									target="_blank"  onclick="play()">Ver fuente</a>
 							</p>
 							<p><button class="button primary" onclick="goBack()">Volver atrás</button></p>
 						</div>

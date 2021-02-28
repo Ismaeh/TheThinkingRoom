@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="../../assets/css/main.css" />
 	<script>
 		let play = function () { document.getElementById("audio").play() }
-		</script>
+	</script>
 
 	<noscript>
 		<link rel="stylesheet" href="../../assets/css/noscript.css" />
@@ -75,10 +75,13 @@
 							<p><button class="button next" onclick="rick(); playPause()">COMPRAR PRODUCTO</button>
 							<div id="rick" style="display: none;  text-align: center;">
 								<h1>Vas sin casco Pablo</h1>
-								<video id="video1" width="480" height="320" autoplay controls>
-									<source src="../../video/rick.webm" type="video/mp4">
-								</video>
-								<p>Este diseño es privado y solo quien me apruebe Diseño de Interfaces Web podrá adquirirlo.</p>
+								<div class="container" style="max-width: 50%;">
+									<video id="video1" width="100%" autoplay controls>
+										<source src="../../video/rick.webm" type="video/mp4">
+									</video>
+								</div>
+								<p>Este diseño es privado y solo quien me apruebe Diseño de Interfaces Web podrá
+									adquirirlo.</p>
 							</div>
 							</p>
 							<p><button class="button primary" onclick="goBack()">Volver atrás</button></p>
